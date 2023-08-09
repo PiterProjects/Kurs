@@ -1,7 +1,2 @@
-list=[]
-n = int(input("Podaj ilosc wynikow: "))
-for i in range(0,n):
-    liczba1=int(input("Podaj liczbe: "))
-    list.append(liczba1)
-
-print(list)
+list = ["Adam","Kowalski",23]
+print(f"Witaj ",{list[0]},{list[1]},"masz",{list[2]},"lat")
